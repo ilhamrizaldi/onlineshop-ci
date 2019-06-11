@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * WEBSITE SISTEM BOOKING & BLOG RESTORAN BERBASIS CODEIGNITER & AJAX 
+ * WEBSITE E-COMMERCE BERBASIS CODEIGNITER & AJAX 
  * @version 1.0
  * @author Muhammad Ilham Rizaldi | Email : muhammadilhamrizaldi@gmail.com | WA : 0822 3444 7450 
  * @copyright (c) 2019
@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 function sms($msg, $to)
 {
-    $urlkita    = 'https://websms.co.id/api/smsgateway?user=ilhamrizaldi&pass=hanyasatu123&to='.$to.'&msg='.$msg.'';
+    $urlkita    = 'https://websms.co.id/api/smsgateway?user=username&pass=password&to='.$to.'&msg='.$msg.'';
     $stream_options = array(
         'https' => array(
             'method'  => 'GET',
